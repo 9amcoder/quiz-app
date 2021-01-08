@@ -9,5 +9,6 @@ npm install
 
 nodemon
 
+It will be run at : http://localhost:4200/
 
 
