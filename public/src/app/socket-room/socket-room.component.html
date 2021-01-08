@@ -1,0 +1,12 @@
+<p>socket-room works!</p>
+
+<div *ngIf="quizToShow">
+        <p>Quiz Title: {{ quizToShow.title }}</p>
+        <div *ngFor="let question of quizToShow.questions; let i = index">
+        <p>Question: {{ quizToShow.questions[i].question }}</p>
+        <p>a.) {{ quizToShow.questions[i].options[0] }}</p>
+        <p>b.) {{ quizToShow.questions[i].options[1] }}</p>
+        <p>c.) {{ quizToShow.questions[i].options[2] }}</p>
+        <p>d.) {{ quizToShow.questions[i].options[3] }}</p>
+    </div>
+

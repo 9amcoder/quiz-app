@@ -1,0 +1,29 @@
+@import '../styles.scss';
+
+// .router-outlet {
+//     @include flexCenter();
+// }
+
+p {
+    @include inline();
+}
+
+.button {
+    @include inline();
+}
+
+.l-button {
+    float: left;
+}
+
+.r-button {
+    float: right;
+}
+
+body {
+    padding: 20px;
+}
+
+.navbar {
+    display: block;
+}
